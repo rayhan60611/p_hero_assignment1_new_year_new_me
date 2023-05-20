@@ -43,3 +43,47 @@
   border-radius: 5px;
   font-weight: 700;
 }
+
+/* failure section start */
+
+.failure-section {
+  width: 800px;
+  display: flex;
+  gap: 60px;
+  margin: 100px 230px 100px 230px;
+  align-items: center;
+}
+
+.failure-left-div {
+  background-image: url("../images/person.png");
+  width: 1200px;
+  height: 440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.failure-right-div {
+  padding-right: 50px;
+}
+
+.failure-title-h3 {
+  font-size: 30px;
+  margin: 10px 45px 10px 0;
+  font-weight: 700;
+  color: #151414;
+}
+
+.failure-p {
+  color: #444343;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.failure-ul > li {
+  color: #444343;
+  margin-bottom: 5px;
+  list-style-type: "✔";
+  font-size: 14px;
+  font-weight: 400;
+}
