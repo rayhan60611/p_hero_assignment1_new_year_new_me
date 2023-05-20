@@ -170,7 +170,7 @@
   height: 500px;
   color: #ffffff;
   display: flex;
-
+  justify-content: center;
   align-items: center;
 }
 
@@ -179,9 +179,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  /* text-align: start;
-  align-items: start; */
-  padding: 0 150px;
+  padding: 0px 150px;
 }
 
 .left-footer h3 {
@@ -200,4 +198,34 @@
 .left-footer-icon-div {
   display: flex;
   gap: 15px;
+}
+
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+  justify-content: flex-start;
+  padding-top: -100px;
+}
+
+.right-footer input {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 13px 50px 13px 8px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.right-footer input::placeholder {
+  color: #ffffff;
+}
+
+.right-footer button {
+  background-color: #005fac;
+  color: #ffffff;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 700;
 }
