@@ -87,3 +87,117 @@
   font-size: 14px;
   font-weight: 400;
 }
+
+/* my-plan-section */
+
+.my-plan-section {
+  text-align: center;
+}
+
+.myplan-title-h3 {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.myplan-container-div {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.card-child {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-child img {
+  width: 70px;
+  height: 70px;
+}
+
+.card-child h3 {
+  color: #151414;
+  font-size: 18px;
+  font-weight: 700;
+}
+.card-child p {
+  color: #737272;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.down-banner {
+  margin-top: 100px;
+}
+
+.down-banner-img {
+  background-image: url("/images/gradient1.png"), url("/images/watch.png");
+  width: 700px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 750px 250px, 750px 250px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  padding-top: 50px;
+  padding-left: 50px;
+  /* margin-left: 200px;
+  margin-right: 200px; */
+}
+
+.down-banner-img h3 {
+  color: #ffffff;
+  width: 400px;
+  text-align: start;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+/* footer start */
+
+.footer-container {
+  background-color: #141515;
+  width: 100%;
+  height: 500px;
+  color: #ffffff;
+  display: flex;
+
+  align-items: center;
+}
+
+.left-footer {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* text-align: start;
+  align-items: start; */
+  padding: 0 150px;
+}
+
+.left-footer h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.left-footer p {
+  font-size: 12px;
+  font-weight: 500;
+  padding-right: 120px;
+}
+.right-footer {
+  flex-basis: 50%;
+}
+
+.left-footer-icon-div {
+  display: flex;
+  gap: 15px;
+}
