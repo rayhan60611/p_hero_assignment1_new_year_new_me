@@ -83,9 +83,13 @@
 .failure-ul > li {
   color: #444343;
   margin-bottom: 5px;
-  list-style-type: "✔";
+  /* list-style-type: "✔"; */
+  list-style: none;
   font-size: 14px;
   font-weight: 400;
+}
+.failure-ul li span {
+  color: #16d887;
 }
 
 /* my-plan-section */
