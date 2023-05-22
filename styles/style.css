@@ -137,7 +137,7 @@
 }
 
 .down-banner-img {
-  background-image: url("/images/gradient1.png"), url("/images/watch.png");
+  background-image: url("./images/gradient1.png"), url("./images/watch.png");
   width: 700px;
   height: 250px;
   background-repeat: no-repeat;
